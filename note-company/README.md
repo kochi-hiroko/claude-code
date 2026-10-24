@@ -12,7 +12,7 @@ Claude Code でこのフォルダを開くと、社員とコマンドが使え�
    ┌──────┬──────┼──────┬──────────┐
 リサーチ    ライター    編集者     SNS担当        秘書
 researcher  writer     editor   threads-marketer  secretary
-ネタ・調査  執筆       校正・価格  Threads投稿      Gmail・Slack
+ネタ・調査  執筆       校正・価格  Threads投稿      Gmail
 ```
 
 ## はじめ方(最初の1回だけ)
@@ -23,7 +23,7 @@ researcher  writer     editor   threads-marketer  secretary
    claude
    ```
 2. **プロフィールを埋める**:`brand/profile.md` を自分で書くか、Claudeに「プロフィールのインタビューをして」と頼む
-3. **Gmail と Slack をつなぐ**:claude.ai の 設定 → コネクタ から Gmail と Slack を接続する(秘書の仕事に必要)
+3. **Gmail をつなぐ**:claude.ai の 設定 → コネクタ から Gmail を接続する(秘書の仕事に必要)
 
 ## 毎日の使い方
 
@@ -46,7 +46,7 @@ researcher  writer     editor   threads-marketer  secretary
 
 ## 安全のための決まり
 
-- メールの送信、Slackへの投稿、Threadsへの投稿、noteへの公開は、**必ず社長が自分で行います**。AI社員が作るのは下書きまでです
+- メールの送信、Threadsへの投稿、noteへの公開は、**必ず社長が自分で行います**。AI社員が作るのは下書きまでです
 - 体験談や実績をでっち上げません。社長にしか書けない箇所は空欄で残します
 - 詳しい社内ルールは `CLAUDE.md` にあります
 

@@ -1,11 +1,11 @@
 ---
 name: morning-report
-description: 社長への朝の報告。Gmail・Slackの要対応メッセージと、今日の制作タスクをまとめる。社長が「朝の報告」「今日の予定」と言ったとき、または /morning-report で使う。
+description: 社長への朝の報告。Gmailの要対応メッセージと、今日の制作タスクをまとめる。社長が「朝の報告」「今日の予定」と言ったとき、または /morning-report で使う。
 ---
 
 # 朝の報告
 
-1. `secretary` に、Gmail と Slack の確認をさせる(前回の `reports/morning-*.md` があれば、その時刻以降を対象にする)
+1. `secretary` に、Gmail の確認をさせる(前回の `reports/morning-*.md` があれば、その時刻以降を対象にする)
    - コネクタがつながっていない場合は、その旨と、claude.ai の設定 → コネクタ からつなげることを社長に伝え、制作タスクだけ報告する
 2. `articles/` を見て、制作中の記事の状態をまとめる
    - `plan.md` だけ → 企画の了承待ち
